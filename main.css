@@ -199,12 +199,16 @@ a:active {
   color: #824027;
 }
 
-img.event {
+.galary img {
   width: 100%;
   display: block;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 pre {
   width: 100%;
   overflow: auto;
+}
+
+.hero {
+  margin-bottom: 20px;
 }
