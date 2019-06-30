@@ -231,8 +231,11 @@ body {
 }
 
 img.map,
-.galary img {
+.gallary img {
   width: 100%;
   display: block;
   padding-bottom: 20px;
+}
+
+body#gallary h1 {
 }
