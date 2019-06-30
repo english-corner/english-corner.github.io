@@ -36,7 +36,6 @@ h6 {
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
-  margin: 0;
 }
 
 h2 {
@@ -199,11 +198,6 @@ a:active {
   color: #824027;
 }
 
-.galary img {
-  width: 100%;
-  display: block;
-  padding-bottom: 20px;
-}
 pre {
   width: 100%;
   overflow: auto;
@@ -211,4 +205,34 @@ pre {
 
 .hero {
   margin-bottom: 20px;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+ul {
+  padding: 0 15px;
+}
+li {
+  margin-bottom: 4px;
+}
+
+section.guideline {
+  margin-bottom: 20px;
+}
+.subheading {
+  margin-bottom: 10px;
+}
+
+body {
+  padding-bottom: 40px;
+}
+
+img.map,
+.galary img {
+  width: 100%;
+  display: block;
+  padding-bottom: 20px;
 }
