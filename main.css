@@ -232,11 +232,17 @@ body {
 
 img.map,
 .gallary img {
-  width: 100%;
+  width: 60%;
   display: block;
   padding-bottom: 20px;
 }
 
+@media (max-width: 600px) {
+  img.map,
+  .gallary img {
+    width: 100%;
+  }
+}
 body#gallary img {
   cursor: pointer;
 }
