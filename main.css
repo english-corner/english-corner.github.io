@@ -10,6 +10,7 @@ body {
     'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
+  margin: 8px;
 }
 
 @media (min-width: 992px) {
@@ -242,9 +243,6 @@ img.map,
   .gallary img {
     width: 100%;
   }
-}
-body#gallary img {
-  cursor: pointer;
 }
 
 .main-wrapper {
