@@ -299,3 +299,8 @@ img.map,
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
+
+.container {
+  /* overwrite grid.scss */
+  margin-left: 0;
+}
